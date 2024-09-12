@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Grotesk";
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.pagina {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cima {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.cima-esquerda h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.cima-esquerda .profissao {
+  font-weight: bold;
+  color: #000000;
+}
+
+.cima-direita p {
+  text-align: right;
+}
+
+.cima-direita p a {
+  color: #000;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.esquerda {
+  font-size: 10px;
+  flex: 0.6;
+  padding-right: 20px;
+}
+
+.direita {
+  font-size: 13px;
+  flex: 2;
+}
+
+.section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.direita p {
+  margin-bottom: 10px;
+}
+
+.direita ul {
+  font-size: 13px;
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.data {
+  float: right;
+  font-weight: normal;
+  color: #000000;
+}
+
+h3 {
+  font-size: 13px;
+  margin-top: 10px;
+  font-size: 1.2em;
+}
